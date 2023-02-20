@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: darkgreen;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>About the Club</h1>
+<p>I know what you're thinking. No, AV does not stand for Amerigo Vespucci or action variable. It actually stands for Audio Visual. The goal of this club is to foster a community of people who love watching movies and or want to become content creators, whether that is short films, podcasts, social media posts, or whatever else there may be, we want you. This club exists for us film fanatics to discuss movies on more than a surface level and also create a pool of peoplewho actually want to star in other people's projects, whether that's podcasts, movies, short films, or social media posts we don't care. We want them all, and we want you..</p>
+
+</body>
+</html>
 
