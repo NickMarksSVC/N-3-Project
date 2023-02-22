@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: "courier new";
+}
+</style>
+</head>
+<body>
 
+<p id="header">FEATURED CREATORS</p>
+
+<p>links</p>
+
+</body>
+</html>
