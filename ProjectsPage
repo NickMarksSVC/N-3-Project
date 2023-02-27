@@ -11,7 +11,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  width: 130px;
+  width: 160px;
 }
 
 a:hover, a:active {
@@ -19,17 +19,45 @@ a:hover, a:active {
   color: yellow;
   border: 2px solid darkgreen;
 }
+
+/* Style the header */
+.header {
+  background-color: gold;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: auto;
+}
+
+#title {
+	font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  	font-weight: bold;
+    text-align: center;
+}
+
+
 </style>
 </head>
 <body>
 
-<p>Saint Vincent College AV Club</p>
+<div class="header">
+  <h1>Projects</h1>
+</div>
 
-<a href="https://www.youtube.com/" target="_blank">Home</a>
+<a href="https://www.youtube.com/" target="_blank">Home</a>           ///this is just a random link for now
 <a href="https://www.youtube.com/" target="_blank">About</a>
 <a href="https://www.youtube.com/" target="_blank">Projects</a>
 <a href="https://www.youtube.com/" target="_blank">Members</a>
 
+<p id="title">Featured Creators</p>
+
+
+<iframe width="auto" height="auto" src="https://www.youtube.com/watch?v=A8Fkvx1Rlfs&t=38s">
+</iframe>
 
 </body>
 </html>
