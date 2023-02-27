@@ -39,7 +39,7 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 160px;
+  width: 165px;
 }
 
 a:hover, a:active {
@@ -58,6 +58,7 @@ article {
   width: 70%;
   background-color: white;
   height: 300px; /* only for demonstration, should be removed */
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -113,7 +114,5 @@ footer {
 
 </body>
 </html>
-
-
 
 
