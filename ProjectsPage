@@ -2,19 +2,34 @@
 <html>
 <head>
 <style>
-#header {
+a:link, a:visited {
+  background-color: darkgreen;
+  color: darkgray;
+  border: 2px solid green;
+  padding: 10px 20px;
   text-align: center;
-  color: black;
-  font-size: 30px;
-  font-family: "courier new";
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 130px;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: yellow;
+  border: 2px solid darkgreen;
 }
 </style>
 </head>
 <body>
 
-<p id="header">FEATURED CREATORS</p>
+<p>Saint Vincent College AV Club</p>
 
-<p>links</p>
+<a href="https://www.youtube.com/" target="_blank">Home</a>
+<a href="https://www.youtube.com/" target="_blank">About</a>
+<a href="https://www.youtube.com/" target="_blank">Projects</a>
+<a href="https://www.youtube.com/" target="_blank">Members</a>
+
 
 </body>
 </html>
