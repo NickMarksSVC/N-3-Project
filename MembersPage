@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Members Page</title>
+<title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
-}
-.button {
-  background-color: green; 
-  color: black; 
-  border: 2px solid #4CAF50;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  width: 175px;
-}
-
-.button:hover {
-  background-color: #4CAF50;
-  color: lightgreen;
 }
 
 body {
@@ -36,15 +20,32 @@ header {
   text-align: center;
   font-size: 35px;
   color: white;
+  height: 160px;
+  width: auto;
 }
 
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 100%;
+  height: auto; /* only for demonstration, should be removed */
   background: gold;
   padding: 20px;
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: green;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 165px;
+}
+
+a:hover, a:active {
+  background-color: lightgreen;
 }
 
 /* Style the list inside the menu */
@@ -59,6 +60,7 @@ article {
   width: 70%;
   background-color: white;
   height: 700px; /* only for demonstration, should be removed */
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -83,11 +85,11 @@ footer {
     height: auto;
   }
 }
+h1 {text-align: center;}
+p {text-align: center;}
 </style>
 </head>
 <body>
-
-
 
 <header>
   <h2>Members</h2>
@@ -96,17 +98,18 @@ footer {
 <section>
   <nav>
     <ul>
-      <button class="button button">Home</button>
-      <button class="button button">About</button>
-	  <button class="button button">Projects</button>
-	  <button class="button button">Members</button>
+<a href="default.asp" target="_blank">Home</a>
+<a href="default.asp" target="_blank">About</a>
+<a href="default.asp" target="_blank">Projects</a>
+<a href="default.asp" target="_blank">Contact</a>
     </ul>
   </nav>
   
   <article>
+  <center>
     <h1>Want to meet the members of the SVC AV Club?</h1>
     <p>Reilly McKay - President <br>
-    Reilly McKay is a sophomore communication major who is the President and founder of the A.V. Club. Reilly loves filmmaking and watching movies. Reilly's primary contact is his email - Reilly.mckay@stvincent.edu <br><br>
+    Reilly McKay is a sophomore communication major who is the President and founder of the A.V. Club. Reilly loves filmmaking and watching movies. <br>Reilly's primary contact is his email - Reilly.mckay@stvincent.edu <br><br>
     
     Chris Rayman - Member<br>
     Chris Rayman is a sophomore health science major. Chris Plays baseball here at SVC. Chris is also the cameraman for the new and very popular YouTube channel, D3Nerds, go subscribe!<br><br>
@@ -115,18 +118,20 @@ footer {
     Jake Polosky is a business data analytics major who is an avid movie enjoyer and critic. Jake's primary contact is his email - Jacob.polosky@stvincent.edu<br><br>
     
     Alissa Minerd - Member<br>
-    Alissa Minerd is a sophomore accounting major who for some reason refused to give me a bio and when I asked her about it she just said "make me one that makes me look cool", so here it is Liss. Alissa is a really cool person and has an even cooler boyfriend who everyone likes more than her. Alissa's primary contact is her email - Alissa.minerd@stvincent.edu<br><br>
+    Alissa Minerd is a sophomore accounting major who for some reason refused to give me a bio and when I asked her about it she just said "make me one that makes me look cool", so here it is Liss. Alissa is a really cool person and has an even cooler boyfriend who everyone likes more than her. <br>Alissa's primary contact is her email - Alissa.minerd@stvincent.edu<br><br>
     
     Joshua M. Dailey - Member/ On-Screen Talent/ VP of Talent Relations <br>
-    Josua is a sophomore sports media major who was "Born in a tahn just ahtside of dahntahn Pittsburgh, member of SVC baseball team, has a German shepherd named Diesel." I could not translate his Pittsburgheese so it was a little copy and paste for Josh. Josh's primary contact is his email - Joshua.dailey@stvincent.edu<br><br>
+    Josua is a sophomore sports media major who was "Born in a tahn just ahtside of dahntahn Pittsburgh, member of SVC baseball team, has a German shepherd named Diesel." I could not translate his Pittsburgheese so it was a little copy and paste for Josh. <br>Josh's primary contact is his email - Joshua.dailey@stvincent.edu<br><br>
     
     Sean McAleer - Member<br>
-    Sean is a sports management major who also did not provide a bio, but, unlike Alissa, I do not know who Sean is so I will just say he is a cool dude. Sean's primary contact is his email - Sean.mcaleer@stvincent.edu<br><br></p>
+    Sean is a sports management major who also did not provide a bio, but, unlike Alissa, I do not know who Sean is so I will just say he is a cool dude. <br>Sean's primary contact is his email - Sean.mcaleer@stvincent.edu<br><br></p>
+    </center>
   </article>
 </section>
 
 <footer>
-  <p>Footer</p>
+  <p>Here's The Club!</p>
+  <img src="people.png">
 </footer>
 
 </body>
