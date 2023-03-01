@@ -16,12 +16,21 @@ body {
 /* Style the header */
 header {
   background-color: green;
-  padding: 30px;
+  padding: 5px;
   text-align: center;
   font-size: 35px;
   color: white;
-  height: 160px;
+  height: auto;
   width: auto;
+}
+h2{
+text-align: left;
+}
+h3{
+text-align: center;
+}
+h4{
+text-align: right:
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -95,7 +104,15 @@ p {text-align: center;}
 <body>
 
 <header>
-  <h2>Members</h2>
+  <h2>
+  <img src=”(https://ibb.co/FhnCQLM)”>
+  </h2>
+  <h3>
+  <img src=”(https://ibb.co/1GQJHTP)”>
+  </h3>
+  <h4>
+  <img src=”(https://ibb.co/FhnCQLM)”>
+  </h4>
 </header>
 
 <section>
@@ -123,7 +140,7 @@ p {text-align: center;}
     Alissa Minerd is a sophomore accounting major who for some reason refused to give me a bio and when I asked her about it she just said "make me one that makes me look cool", so here it is Liss. Alissa is a really cool person and has an even cooler boyfriend who everyone likes more than her. <br>Alissa's primary contact is her email - Alissa.minerd@stvincent.edu<br><br>
     
     Joshua M. Dailey - Member/ On-Screen Talent/ VP of Talent Relations <br>
-    Josua is a sophomore sports media major who was "Born in a tahn just ahtside of dahntahn Pittsburgh, member of SVC baseball team, has a German shepherd named Diesel." I could not translate his Pittsburgheese so it was a little copy and paste for Josh. <br>Josh's primary contact is his email - Joshua.dailey@stvincent.edu<br><br>
+    Josua is a sophomore sports media major who was "Born in a tahn just ahtside of dahntahn Pittsburgh, member of SVC baseball team, has a German shepherd named Diesel." I could not translate his Pittsburgheese so it was a little copy and paste for Josh. Josh is also going to be featured in the new YouTube series, "The Monastery", a mock-umentary that is going to follow a group of monks going through their daily lives, directed by Adam Kosilicki. <br>Josh's primary contact is his email - Joshua.dailey@stvincent.edu<br><br>
     
     Sean McAleer - Member<br>
     Sean is a sports management major who also did not provide a bio, but, unlike Alissa, I do not know who Sean is so I will just say he is a cool dude. <br>Sean's primary contact is his email - Sean.mcaleer@stvincent.edu<br><br></p>
