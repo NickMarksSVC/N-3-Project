@@ -43,7 +43,7 @@ a:link, a:visited {
   font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
-  width: 175px;
+  width: auto;
 }
 
 a:hover, a:active {
@@ -60,7 +60,7 @@ nav ul {
 article {
   float: left;
   padding: 20px;
-  width: 70%;
+  width: auto;
   background-color: white;
   height: auto; /* only for demonstration, should be removed */
   text-align: center;
@@ -109,7 +109,6 @@ p {text-align: center;}
   </nav>
   
   <article>
-  <center>
     <h1>Want to meet the members of the SVC AV Club?</h1>
     <p>Reilly McKay - President <br>
     Reilly McKay is a sophomore communication major who is the President and founder of the A.V. Club. Reilly loves filmmaking and watching movies. <br>Reilly's primary contact is his email - Reilly.mckay@stvincent.edu <br><br>
@@ -128,7 +127,6 @@ p {text-align: center;}
     
     Sean McAleer - Member<br>
     Sean is a sports management major who also did not provide a bio, but, unlike Alissa, I do not know who Sean is so I will just say he is a cool dude. <br>Sean's primary contact is his email - Sean.mcaleer@stvincent.edu<br><br></p>
-    </center>
   </article>
 </section>
 
