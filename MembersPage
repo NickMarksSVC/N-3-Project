@@ -35,17 +35,20 @@ nav {
 }
 
 a:link, a:visited {
-  background-color: green;
-  color: white;
-  padding: 14px 25px;
+  background-color: green; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  padding: 16px 32px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width: 165px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 175px;
 }
 
 a:hover, a:active {
-  background-color: lightgreen;
+  background-color: #4CAF50;
+  color: lightgreen;
 }
 
 /* Style the list inside the menu */
