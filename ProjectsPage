@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Title of the document</title>
 <style>
-a:link, a:visited {
-  background-color: darkgreen;
-  color: darkgray;
-  border: 2px solid green;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  width: 160px;
-}
+   .tableFixHead {
+   overflow-y: auto;
+   height: 150px;
+   width: 400px;
+   }
+   .tableFixHead thead th {
+   position: sticky;
+   top: 0px;
+   }
+   table {
+   border-collapse: collapse;
+   width: 100%;
+   }
+   th,
+   td {
+   padding: 8px 16px;
+   border: 1px solid #ccc;
+   }
+   th {
+   background: #eee;
+   }
+   </style>
+   <style>
+   a:link, a:visited {
+   background-color: darkgreen;
+   color: darkgray;
+   border: 2px solid green;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   width: 160px;
+   }
 
 a:hover, a:active {
   background-color: green;
@@ -31,33 +55,57 @@ a:hover, a:active {
   font-weight: bold;
   height: auto;
 }
-
-#title {
-	font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  	font-weight: bold;
-    text-align: center;
-}
-
-
 </style>
 </head>
 <body>
-
+  
 <div class="header">
-  <h1>Projects</h1>
+<h1>Saint Vincent College AV Club</h1>
 </div>
 
-<a href="https://www.youtube.com/" target="_blank">Home</a>           ///this is just a random link for now
+<a href="https://www.youtube.com/" target="_blank">Home</a>
 <a href="https://www.youtube.com/" target="_blank">About</a>
 <a href="https://www.youtube.com/" target="_blank">Projects</a>
 <a href="https://www.youtube.com/" target="_blank">Members</a>
 
-<p id="title">Featured Creators</p>
-
-
-<iframe width="auto" height="auto" src="https://www.youtube.com/watch?v=A8Fkvx1Rlfs&t=38s">
-</iframe>
-
-</body>
+  
+  
+  <h1>Upcoming Events for AV Club!</h1>
+  <p></p>
+    <div class="tableFixHead">
+      <table>
+        <thead>
+          <tr>
+            <th>Events</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>March 8, 2023: Added this feature</td>
+          </tr>
+          <tr>
+            <td>March 15, 2023: Next Sprint Presentation</td>
+          </tr>
+          <tr>
+            <td>Date: Description of event</td>
+          </tr>
+          <tr>
+            <td>Date: Description of event</td>
+          </tr>
+          <tr>
+            <td>Date: Description of event</td>
+          </tr>
+          <tr>
+            <td>Date: Description of event</td>
+          </tr>
+          <tr>
+            <td>Date: Description of event</td>
+          </tr>
+          <tr>
+            <td>Date: Description of event</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
