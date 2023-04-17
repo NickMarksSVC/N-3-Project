@@ -29,15 +29,15 @@
   </div>
 </div>
 
-
+<!-- Padding for page -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <div class="w3-center">
-
     <div class="w3-padding-32">
     </div>
   </div>
 </header>
 
+<!-- Header for the page -->
 <h2>Looking to Join the Club? Complete this Form:</h2>
 <style>
 h2{
@@ -55,6 +55,8 @@ color: black;
 </style>
 
 </div>
+
+<!-- iframe for Google Form -->
 <h3>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9pHTsFoDNGYqnvYOn0X-cYdJSkuooxePEESv5MPaHRajlqg/viewform?embedded=true" width="700" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe><style>
 h3 {
@@ -62,6 +64,7 @@ h3 {
 }
 </style>
 
+<!-- Header after google form -->
 <h6><div class="w3-padding-32"></h6>
 <h5>What Does A/V Club Offer? Take a look!</h5>
 <style>
@@ -73,6 +76,7 @@ h3 {
   }
 </style>
 
+<!-- Styling for blank font color -->
 <style>
 h3{
 color: black;
@@ -83,6 +87,8 @@ color: black;
 }
 </style>
 
+<!-- Info blocks found at the bottom of the page-->
+<!-- First block -->
 <div class="w3-row-padding w3-center w3-margin-top">
 <div class="w3-third">
   <div class="w3-card w3-container" style="min-height:460px">
@@ -96,6 +102,7 @@ color: black;
   </div>
 </div>
 
+<!-- Second block -->
 <div class="w3-third">
   <div class="w3-card w3-container" style="min-height:460px">
   <h3>Filming</h3><br>
@@ -108,6 +115,7 @@ color: black;
   </div>
 </div>
 
+<!-- Third block -->
 <div class="w3-third">
   <div class="w3-card w3-container" style="min-height:460px">
   <h3>Acting</h3><br>
